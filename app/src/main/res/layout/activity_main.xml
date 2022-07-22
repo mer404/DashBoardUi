@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/e1c1dab07d00370b0a923d9e4783ab32"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="center_horizontal"-->
+<!--        android:text="Enjoy your \nTravel"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:gravity="center"-->
+<!--        android:textSize="@dimen/_25ssp"-->
+<!--        android:textStyle="bold" />-->
+
+    <ImageView
+        android:layout_width="@dimen/_100sdp"
+        android:scaleType="centerCrop"
+        android:layout_height="@dimen/_100sdp"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_60sdp"
+        android:src="@drawable/travel_logo" />
+
+
+    <EditText
+        android:id="@+id/edtUsername"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_marginHorizontal="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_100sdp"
+        android:background="@drawable/bg_round"
+        android:hint="Enter username"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="@dimen/_15sdp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edtPassword"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_marginHorizontal="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:background="@drawable/bg_round"
+        android:hint="Enter password"
+        android:inputType="numberPassword"
+        android:paddingLeft="@dimen/_15sdp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtSignin"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_100sdp"
+        android:background="@drawable/round_background"
+        android:gravity="center"
+        android:text="Login"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+</LinearLayout>

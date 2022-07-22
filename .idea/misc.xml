@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/HP/AndroidStudioProjects/TourApp/app/src/main/res/drawable-v24/custom_bg.xml" value="0.159" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/TourApp/app/src/main/res/drawable/bg_round.xml" value="0.1515" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/TourApp/app/src/main/res/drawable/bg_round_second_screen.xml" value="0.1515" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/TourApp/app/src/main/res/drawable/custom_dialog_bg.xml" value="0.159" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/TourApp/app/src/main/res/drawable/edit_icon_bg.xml" value="0.1515" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/TourApp/app/src/main/res/drawable/round_background.xml" value="0.1515" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/TourApp/app/src/main/res/drawable/save_button_bg.xml" value="0.1515" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/TourApp/app/src/main/res/drawable/spinner_dropdown_icon.xml" value="0.1515" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/TourApp/app/src/main/res/drawable/spinner_one_text.xml" value="0.1515" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/TourApp/app/src/main/res/drawable/user.xml" value="0.159" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/TourApp/app/src/main/res/layout/activity_dash_board.xml" value="0.25" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/TourApp/app/src/main/res/layout/activity_main.xml" value="0.23796296296296296" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/TourApp/app/src/main/res/layout/activity_second_screen.xml" value="0.25" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/TourApp/app/src/main/res/layout/activity_spinner.xml" value="0.25" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/TourApp/app/src/main/res/layout/activity_splash_screen.xml" value="0.2359375" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/TourApp/app/src/main/res/layout/custom_dialog.xml" value="0.25" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/TourApp/app/src/main/res/layout/cuztom_dialog_layout.xml" value="0.25" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/TourApp/app/src/main/res/layout/spinner_country_code.xml" value="0.24895833333333334" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/TourApp/app/src/main/res/layout/spinner_money_text.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
