@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SignUpActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_120sdp"
+            android:background="@drawable/sign_up_bg"
+            android:gravity="center"
+            android:paddingBottom="@dimen/_30sdp"
+            android:text="SIGN UP"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_15ssp"
+            android:textStyle="bold" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/circleImageprofile"
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_100sdp"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="@dimen/_130sdp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/circle_avatar_vactor" />
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/edtSignUpName"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_marginHorizontal="@dimen/_15sdp"
+        android:background="@drawable/edit_text_bg"
+        android:hint="Name"
+        android:imeOptions="actionNext"
+        android:inputType="textPersonName"
+        android:paddingLeft="@dimen/_25sdp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edtEmailSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_marginHorizontal="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:background="@drawable/edit_text_bg"
+        android:hint="email"
+        android:imeOptions="actionNext"
+        android:inputType="textPersonName"
+        android:paddingLeft="@dimen/_25sdp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edtpasswordSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_marginHorizontal="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:background="@drawable/edit_text_bg"
+        android:hint="password"
+        android:imeOptions="actionNext"
+        android:inputType="textPersonName"
+        android:paddingLeft="@dimen/_25sdp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edtPhoneSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_marginHorizontal="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:background="@drawable/edit_text_bg"
+        android:hint="phone"
+        android:imeOptions="actionNext"
+        android:inputType="textPersonName"
+        android:paddingLeft="@dimen/_25sdp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/btnContinue"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:background="@drawable/edit_text_bg"
+        android:gravity="center"
+        android:text="continue"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_13ssp"
+        android:textStyle="bold" />
+</LinearLayout>
